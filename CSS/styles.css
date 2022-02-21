@@ -1,0 +1,162 @@
+.nav-bar {
+ display: flex;
+}
+
+.brand-name {margin-right: auto;}
+
+/* .brand-name h2 {margin-top: 0;} */
+
+.welcome-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 140px;
+}
+
+.welcome-section h1 {
+  font-size: 45px;
+  line-height: 1.5;
+}
+
+.welcome-section p {font-size: 30px;}
+
+.text-container {width: 650px;}
+
+.text-container a {
+  position: relative;
+  left: 460px;
+  bottom: 35px;
+}
+
+.profile-div {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.profile-div img {
+  border-radius: 50rem;
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-section {
+  background: black;
+  color: white;
+  height: 300px;
+}
+
+.text-wrapper h2 {
+  margin-top: 0;
+  width: 100px;
+  margin: auto;
+}
+
+.text-wrapper p {
+  width: 360px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.portfolio-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-body {
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.card-body img {
+  width: 100%;
+  height: 150px;
+}
+
+.card-popup-box {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  transition: 0.4s;
+  z-index: 1;
+  padding: 1.25rem 1.875rem;
+  opacity: 0;
+}
+
+.card-popup-box:before {
+  position: absolute;
+  content: "";
+  background: rgb(128, 128, 128);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.portfolio-card:hover .card-popup-box {
+  bottom: 20px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+/* modals */
+
+
+.modals {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  transition: all 0.35s ease-in;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  z-index: 99;
+}
+
+.modal-header {
+  display: flex;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.modal-header .fa-times {
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in;
+}
+
+.modal-header .fa-times:hover {
+  transition: scale(1.1);
+  cursor: pointer;
+}
+
+.modals.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+[data-animation="zoomInOut"].modals {
+  transform: scale(0.2);
+}
+
+[data-animation="slideInOutTop"].is-visible .modal-dialog {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+[data-animation="zoomInOut"].modals.is-visible,
+[data-animation="slideInOutTop"].is-visible {
+  transform: none;
+}
