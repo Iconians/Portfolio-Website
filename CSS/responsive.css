@@ -28,6 +28,8 @@
     text-decoration: none;
   }
 
+  .portfolio-section {padding: 50px;}
+
   [aria-controls="navbarDropdown"] {
     display: block;
     /* z-index: 100; */
