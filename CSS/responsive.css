@@ -28,7 +28,7 @@
     text-decoration: none;
   }
 
-  .portfolio-section {padding: 50px;}
+  .portfolio-section {padding-bottom: 50px;}
 
   [aria-controls="navbarDropdown"] {
     display: block;
