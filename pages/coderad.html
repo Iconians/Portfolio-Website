@@ -9,33 +9,38 @@
   <link rel="stylesheet" href="/CSS/styles.css">
   <link rel="stylesheet" href="/CSS/foliopages.css">
   <link rel="stylesheet" href="/CSS/responsive.css">
-  <title>Thank You</title>
+  <title>CodeRad project</title>
 </head>
 <body>
-  <div class="page-wrapper thank-you-wrapper">
-    <header class="nav-bar">
-      <div class="brand-name">
-        <h2>Handy Websites</h2>
-      </div>
-      <nav class="nav">
-        <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
-          <span>&#9776;</span>
-       </button>
-       <ul class="ul-defaults-none">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/pages/dev-process.html">Development process</a></li>
-        <li class="nav-item"><a href="/pages/about.html">About</a></li>
-        <li class="nav-item" data-open="contact">Contact</li>
-      </ul>
-      </nav>
-    </header>
-    <div class="thank-you-text-wrapper">
-      <h1>Thank you for contacting me I will respond within 48hrs</h1>
-      <a href="/">Return Home</a>
+  <div class="page-wrapper">
+  <header class="nav-bar">
+    <div class="brand-name">
+      <h2>Handy Websites</h2>
     </div>
-  </div>
+    <nav class="nav">
+      <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+        <span>&#9776;</span>
+     </button>
+     <ul class="ul-defaults-none">
+      <li class="nav-item"><a href="/">Home</a></li>
+      <li class="nav-item"><a href="/pages/dev-process.html">Development process</a></li>
+      <li class="nav-item"><a href="/pages/about.html">About</a></li>
+      <li class="nav-item" data-open="contact">Contact</li>
+    </ul>
+    </nav>
+  </header>
 
-  <section class="portfolio-section portfolio-section-dev thank-you-page">
+  <section>
+    <div id="coderad" class="coderad-project">
+      <div class="coderad-img-placeholder folio-grid">
+        <div>
+          <img src="" alt="portfolio picture">
+          <p></p>
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section class="portfolio-section">
     <div class="text-wrapper">
       <h2>Portfolio</h2>
       <p>
@@ -73,8 +78,8 @@
       </div> 
     </div>
   </section>
-  
- <!-- modals -->
+  </div>
+  <!-- modals -->
 
   <div id="contact" class="contact-modal modals" data-animation="zoomInOut">
     <div class="modal-header">
@@ -96,6 +101,7 @@
       </form>
     </div>
   </div>
-  <script src="/JS/thankyou.js"></script>
+
+  <script src="/JS/coderad.js"></script>
 </body>
 </html>

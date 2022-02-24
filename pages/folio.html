@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c1f5ebdd84.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/CSS/base.css">
+  <link rel="stylesheet" href="/CSS/styles.css">
+  <link rel="stylesheet" href="/CSS/foliopages.css">
+  <link rel="stylesheet" href="/CSS/responsive.css">
+  <title>Folio project</title>
+</head>
+<body>
+  <div class="page-wrapper">
+  <header class="nav-bar">
+    <div class="brand-name">
+      <h2>Handy Websites</h2>
+    </div>
+    <nav class="nav">
+      <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+        <span>&#9776;</span>
+     </button>
+     <ul class="ul-defaults-none">
+      <li class="nav-item"><a href="/">Home</a></li>
+      <li class="nav-item"><a href="/pages/dev-process.html">Development process</a></li>
+      <li class="nav-item"><a href="/pages/about.html">About</a></li>
+      <li class="nav-item" data-open="contact">Contact</li>
+    </ul>
+    </nav>
+  </header>
+   
+  <section>
+    <div id="folio" class="folio-project">
+     
+      <div class="folio-img-placeholder folio-grid">
+        
+      </div>
+    </div>
+  </section>
+  <section class="portfolio-section">
+    <div class="text-wrapper">
+      <h2>Portfolio</h2>
+      <p>
+        These are previous website requests done to clients specifications.
+        Please click on a portfolio picture to view more details.
+      </p>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-card" data-item="web" data-open="saas">
+        <div class="card-body">
+          <img src="/assets/SaaS top page.png" alt="portfolio icon">
+          <a href="/pages/saas.html" class="card-popup-box">
+            <h4>SaaS landing page</h4>
+            <p>click to see more details</p>
+          </a>
+        </div>
+      </div> 
+      <div class="portfolio-card" data-item="web" data-open="coderad">
+        <div class="card-body">
+          <img src="/assets/codeRad top page.png" alt="portfolio icon">
+          <a href="/pages/coderad.html" class="card-popup-box">
+            <h4>CodeRad landing page</h4>
+            <p>click to see more details</p>
+          </a>
+        </div>
+      </div> 
+      <div class="portfolio-card last-card" data-item="web" data-open="folio">
+        <div class="card-body">
+          <img src="/assets/folio top page.png" alt="portfolio icon">
+          <a href="/pages/folio.html" class="card-popup-box">
+            <h4>Folio landing page</h4>
+            <p>click to see more details</p>
+          </a>
+        </div>
+      </div> 
+    </div>
+  </section>
+  </div>
+ <!-- modals -->
+
+<div id="contact" class="contact-modal modals" data-animation="zoomInOut">
+  <div class="modal-header">
+     <h2>Contact Clayton</h2>
+     <i class="fas fa-times" data-close></i>
+  </div>
+  <div class="contact-form">
+    <h3>Contact Form</h3>
+    <form action="https://formsubmit.co/claytoncripe@gmail.com" method="POST">
+      <!-- <input type="hidden" name="_next" value="https://yourdomain.co/pages/thankyou.html"> -->
+      <input type="hidden" name="_autoresponse" value="Thank you for contacting me I will respond within 48hrs">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="client email">
+      <input class="form-ctrl" type="text" name="name" required placeholder="Please enter your first name">
+      <input class="form-ctrl" type="text" name="name" required placeholder="Please enter your last name">
+      <input class="form-ctrl" type="email" name="email" required placeholder="Please enter your email">
+      <textarea class="form-ctrl" name="comment" id="comment-id" cols="38" rows="3" placeholder="Please describe your project"></textarea>
+      <button class="btn btn-primary round-pill" type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+  <script src="/JS/folio.js"></script>
+</body>
+</html>

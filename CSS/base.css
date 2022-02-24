@@ -6,7 +6,7 @@
 body {margin: 0;}
 
 .nav-section {
-  background-image: url("/assets/FB_IMG_1645237438724.jpg");
+  background-image: url("/assets/piqsels.com-id-jzveu.jpg");
   height: 45rem;
   color: white;
 }
@@ -18,12 +18,13 @@ body {margin: 0;}
   text-decoration: none;
 }
 
-.ul-defaults-none li a {
-  text-decoration: none;
-  color: white;
-}
+.ul-defaults-none li a {text-decoration: none;}
 
-.nav-item {cursor: pointer;}
+.nav-item {
+  cursor: pointer;
+  font-size: 22px;
+}
+.nav-item a {color: white;}
 
 .ul-defaults-none li {
   margin-right: 16px;

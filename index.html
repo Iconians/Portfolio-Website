@@ -14,14 +14,16 @@
   <section class="nav-section">
     <header class="nav-bar">
       <div class="brand-name">
-        <h2>Clayton Cripe</h2>
+        <h2>Handy Websites</h2>
       </div>
-      <nav>
+      <nav class="nav">
+        <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+          <span>&#9776;</span>
+       </button>
         <ul class="ul-defaults-none">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li class="nav-item" data-open="dev-process">Development process</li>
-          <li class="nav-item" data-open="about">About</li>
+          <!-- <li class="nav-item"><a href="/">Home</a></li> -->
+          <li class="nav-item"><a href="/pages/dev-process.html">Development process</a></li>
+          <li class="nav-item"><a href="/pages/about.html">About</a></li>
           <li class="nav-item" data-open="contact">Contact</li>
         </ul>
       </nav>
@@ -31,45 +33,48 @@
         <h1>Welcome to my portfolio website</h1>
         <p>
           Hello and welcome to my portfolio site my name is Clayton and I am a Web Developer. <br>
-          I specialized in creating eye catching websites. Please check out my portfolio and I look forward to speaking to you soon
+          I specialize in creating eye catching websites. Please check out my portfolio and I look forward to speaking to you soon
         </p>
       </div>
       <div class="profile-div">
-        <img src="/assets/profilepic.jpg" alt="picture of Clayton">
+        <img src="/assets/portfolio-pic2.jpg" alt="picture of Clayton">
       </div>
     </div>
   </section>
   <section class="portfolio-section">
     <div class="text-wrapper">
       <h2>Portfolio</h2>
-      <p>Please click on a portfolio picture to view more details</p>
+      <p>
+        These are previous website requests done to clients specifications.
+        Please click on a portfolio picture to view more details.
+      </p>
     </div>
     <div class="portfolio-grid">
-      <div class="portfolio-card" data-item="web" data-open="web-1">
+      <div class="portfolio-card" data-item="web" data-open="saas">
         <div class="card-body">
           <img src="/assets/SaaS top page.png" alt="portfolio icon">
-          <div class="card-popup-box">
+          <a href="/pages/saas.html" class="card-popup-box">
             <h4>SaaS landing page</h4>
             <p>click to see more details</p>
-          </div>
+          </a>
         </div>
       </div> 
-      <div class="portfolio-card" data-item="web" data-open="web-2">
+      <div class="portfolio-card" data-item="web" data-open="coderad">
         <div class="card-body">
           <img src="/assets/codeRad top page.png" alt="portfolio icon">
-          <div class="card-popup-box">
+          <a href="/pages/coderad.html" class="card-popup-box">
             <h4>CodeRad landing page</h4>
             <p>click to see more details</p>
-          </div>
+          </a>
         </div>
       </div> 
-      <div class="portfolio-card" data-item="web" data-open="web-3">
+      <div class="portfolio-card last-card" data-item="web" data-open="folio">
         <div class="card-body">
           <img src="/assets/folio top page.png" alt="portfolio icon">
-          <div class="card-popup-box">
+          <a href="/pages/folio.html" class="card-popup-box">
             <h4>Folio landing page</h4>
             <p>click to see more details</p>
-          </div>
+          </a>
         </div>
       </div> 
     </div>
@@ -80,97 +85,23 @@
 
   <!-- modals -->
 
-  <div id="dev-process" class="dev-process-modal modals" data-animation="zoomInOut">
-    <div class="modal-header">
-      <h2>The Development Process</h2>
-      <i class="fas fa-times" data-close></i>
-    </div>
-    <div class="dev-process-body">
-      <div>
-        <h3>1st Step</h3>
-        <p>
-          The first step in the development process which is probably the hardest is to sit down and figure out what kind of 
-          website you want, if you want a landing page with a few pieces of content or a website that has multiple pages,
-          then you need to decide how you want your site to look (the layout) making a sketch is helpful when trying to visualize,
-          then when you sit down with me we can refine the sketch and if you need further help in finding the right layout you can 
-          visit different sites you like and look at how the content is layed out which can help you figure what layout you like 
-          then of course I as the technical partner can assist you in refining the sketch and bounce ideas around.
-        </p>
-      </div>
-      <div>
-        <h3>2nd Step</h3>
-        <p>
-          The second step in the process is scheduling a free initial meeting with the me (the technical partner) which will last 10 to 15 minutes,
-          which we will discuss an overview of your project and decide if we will work well together, then we will set up a free 45 min to 
-          an hour meeting and dig into the project and figure out all the nuts and bolts and put it down on paper and signed, at this
-          point the initial payment is due to start development process.
-        </p>
-      </div>
-      <div>
-        <h3>3rd Step</h3>
-        <p>
-          the third step is the actual development, this is where I look over the sketch and divide the sketch into sections and group 
-          content based on location and other commonalities, then think about what tools to use that make the most sense when the site 
-          is viewed on a phone or tablet since most responsive tools are built into the desktop version of the site then as the screen
-          gets smaller like on a tablet or phone there will only be minimal adjustments needed, then I build the site out and will send
-          a picture to the client for their feedback and then will implement their adjustments and once the client is satisfied I will 
-          upload the site to the clients server   
-        </p>
-      </div>
-      <div>
-        <h3>4th Step</h3>
-        <p>
-          the fourth step is collect final payment if there is one and for the client to decide if they wish to keep me as their technical
-          partner for future website updates 
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div id="about" class="about modals" data-animation="zoomInOut">
-    <div class="modal-header">
-      <h2>About page</h2>
-      <i class="fas fa-times" data-close></i>
-    </div>
-    <div class="img-wrapper">
-       <img src="" alt="">
-    </div>
-    <div>
-       <h2>Clayton Cripe</h2>
-       <p>
-          Hello my name is Clayton Cripe, let me tell you a little about my background in technology, as most 90's kids I grew up around
-          computers whether it was a desktop or a game console which means growing up I self taught myself a lot about computers and found I
-          had a knack in understanding computers and fixing them when something went wrong so I ended up being the IT guy in my family then 
-          as I got older I took some schooling and became more proficient with computers, then I decided recently to specialize in creating 
-          websites and took a course to help me get a good foundation which now I am ready to put my extensive knowledge at your disposal in 
-          creating you an eye catching website and fulfilling whatever technical needs you may have in the future as I am looking to fill the 
-          role of your technical partner that way you can focus on what you do best  
-       </p>
-    </div>
-    <!-- <div class="code">
-      <i class="fa-solid fa-code"></i>
-      <i class="fa-brands fa-node-js"></i>
-      <i class="fa-brands fa-js"></i>
-      <i class="fab fa-github"></i>
-    </div> -->
-  </div>
-
   <div id="contact" class="contact-modal modals" data-animation="zoomInOut">
     <div class="modal-header">
        <h2>Contact Clayton</h2>
        <i class="fas fa-times" data-close></i>
     </div>
-    <div>
-      <h3></h3>
+    <div class="contact-form">
+      <h3>Contact Form</h3>
       <form action="https://formsubmit.co/claytoncripe@gmail.com" method="POST">
-        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/pages/thankyou.html"> -->
+        <!-- <input type="hidden" name="_next" value="/pages/thankyou.html"> -->
         <input type="hidden" name="_autoresponse" value="Thank you for contacting me I will respond within 48hrs">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_subject" value="client email">
-        <input type="text" name="name" required placeholder="Please enter yor name">
-        <input type="email" name="email" required placeholder="Please enter your email">
-        <textarea name="comment" id="comment-id" cols="30" rows="10"></textarea>
-        <button type="submit">Send</button>
+        <input class="form-ctrl" type="text" name="name" required placeholder="Please enter your first name">
+        <input class="form-ctrl" type="text" name="name" required placeholder="Please enter your last name">
+        <input class="form-ctrl" type="email" name="email" required placeholder="Please enter your email">
+        <textarea class="form-ctrl" name="comment" id="comment-id" cols="38" rows="3" placeholder="Please describe your project"></textarea>
+        <button class="btn btn-primary round-pill" type="submit">Send</button>
       </form>
     </div>
   </div>
