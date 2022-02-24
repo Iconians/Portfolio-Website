@@ -15,8 +15,8 @@
 } */
 
 .img-content-wrapper {
-  max-width: 1000px;
-  height: 500px;
+  max-width: 62.5rem;
+  height: 31.25rem;
   /* margin-bottom: 20px; */
   margin: auto;
   margin-top: 40px;
@@ -24,7 +24,7 @@
 
 .img-container img {
   width: 100%;
-  height: 450px;
+  height: 28.125rem;
 }
 
 .img-p {
@@ -38,10 +38,10 @@
 
 .portfolio-section-dev {margin-top: 0;}
 
-.thank-you-wrapper {height: 500px;}
+.thank-you-wrapper {height: 31.25rem;}
 
 .thank-you-text-wrapper {
-  max-width: 800px;
+  max-width: 50rem;
   margin: auto;
 }
 

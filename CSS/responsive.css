@@ -7,12 +7,12 @@
   .welcome-section {
     flex-direction: column-reverse;
     margin: auto;
-    max-width: 640px;
+    max-width: 40rem;
   }
 
   .profile-div {margin: auto;}
 
-  .img-content-wrapper {max-height: 500px;}
+  .img-content-wrapper {max-height: 31.25rem;}
   .img-content-wrapper img {height: 100%;}
 }
 
@@ -23,13 +23,13 @@
 }
 
 @media (max-width: 730px) {
-  .img-content-wrapper {max-height: 400px;}
+  .img-content-wrapper {max-height: 25rem;}
 }
 
 @media (max-width: 670px) {
   [aria-controls="navbarDropdown"] {
     display: block;
-    z-index: 100;
+    /* z-index: 100; */
   }
 
   [aria-expanded="false"] ~ ul {
@@ -70,10 +70,10 @@
 
 @media (max-width: 500px) {
   .btn-primary {left: 188px;}
-  .img-content-wrapper {max-height: 330px;}
+  .img-content-wrapper {max-height: 20.625rem;}
   .img-wrapper img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 15.625rem;
+    max-height: 15.625rem;
     position: relative;
     left: 22px;
   }
@@ -82,8 +82,8 @@
 @media (max-width: 400px) {
   .dev-brand {margin-top: 25px;}
   .img-wrapper img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 12.5rem;
+    max-height: 12.5rem;
     position: relative;
     left: 50px;
   }
@@ -91,8 +91,8 @@
 
 @media (max-width: 334px) {
   .img-wrapper img {
-    max-width: 175px;
-    max-height: 175px;
+    max-width: 10.9375rem;
+    max-height: 10.9375rem;
     position: relative;
     left: 62px;
 }
