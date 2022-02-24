@@ -55,7 +55,7 @@
 @media (max-width: 630px) {
   .nav-section {
     height: 100%;
-    max-height: 70rem;
+    max-height: 100rem;
   }
 }
 
