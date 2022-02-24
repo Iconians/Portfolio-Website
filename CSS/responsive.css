@@ -15,7 +15,7 @@
   .img-content-wrapper {max-height: 31.25rem;}
   .img-content-wrapper img {height: 100%;}
 
-  .btn {
+  .about-btn {
     background-color: var(--button-color);
     color: var(--white);
     padding: 1rem 1rem;
