@@ -231,7 +231,8 @@
 }
 
 .about-body h2 {
-  width: 9.375rem;
+  max-width: 12.375rem;
+  width: 100%;
   margin: auto;
 }
 
