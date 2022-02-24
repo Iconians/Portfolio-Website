@@ -238,7 +238,8 @@
 .about-body p {font-size: 20px;}
 
 .link-div {
-  width: 290px;
+  max-width: 290px;
+  width: 100%;
   margin: auto;
   margin-top: 55px;
   padding-bottom: 50px;
