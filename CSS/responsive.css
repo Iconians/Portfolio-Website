@@ -15,6 +15,9 @@
   .img-content-wrapper {max-height: 31.25rem;}
   .img-content-wrapper img {height: 100%;}
 
+  .about-body h2 {
+    max-width: 12.375rem;
+  }
   .about-btn {
     background-color: var(--button-color);
     color: var(--white);
