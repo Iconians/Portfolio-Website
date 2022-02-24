@@ -1,4 +1,6 @@
 @media (max-width: 1000px) {
+  .nav-section {max-height: 100rem;}
+
   .welcome-section {
     flex-direction: column-reverse;
     margin: auto;
