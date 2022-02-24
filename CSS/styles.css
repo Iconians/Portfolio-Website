@@ -70,6 +70,7 @@
   background: black;
   color: white;
   max-height: 700px;
+  padding-bottom: 30px;
 }
 
 .text-wrapper h2 {
