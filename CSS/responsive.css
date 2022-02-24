@@ -14,6 +14,16 @@
 
   .img-content-wrapper {max-height: 31.25rem;}
   .img-content-wrapper img {height: 100%;}
+
+  .btn {
+    background-color: var(--button-color);
+    color: var(--white);
+    padding: 1rem 1rem;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 910px) {
