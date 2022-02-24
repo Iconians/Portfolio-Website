@@ -34,7 +34,7 @@ body {margin: 0;}
 .btn {
   background-color: var(--button-color);
   color: var(--white);
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   border-radius: 25px;
   font-weight: 700;
   font-size: 16px;
