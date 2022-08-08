@@ -7,11 +7,11 @@ const closeModal = document.querySelectorAll(modalClose);
 folioPlaceholder = document.querySelector('.folio-img-placeholder');
 
 const folioContent = [
-  {img: '/assets/folio top page.png', alt: 'portfolio picture', p: 'this is the top of the page which has a very slight background image, if you look for the faint lines, those are actually a background image'},
-  {img: '/assets/folio card picture.png', alt: 'portfolio picture', p: 'these picture cards in the image are all clickable and will pull up more information then you can filter the card by category or by using the search bar'},
-  {img: '/assets/folio dark theme.png', alt: 'portfolio picture', p: 'this is the same card section but now the dark theme has been applied'},
-  {img: '/assets/folio card section2.png', alt: 'portfolio picture', p: 'this is the same card section but now the category is web development instead of all work'},
-  {img: '/assets/folio testimonial.png', alt: 'portfolio picture', p: 'this is the testimonial section which is a carousel set up so you can click on the arrows and go from one to another'},
+  {img: '/assets/folio-top-page.avif', alt: 'portfolio picture', p: 'this is the top of the page which has a very slight background image, if you look for the faint lines, those are actually a background image'},
+  {img: '/assets/folio-card-picture.avif', alt: 'portfolio picture', p: 'these picture cards in the image are all clickable and will pull up more information then you can filter the card by category or by using the search bar'},
+  {img: '/assets/folio-dark-theme.avif', alt: 'portfolio picture', p: 'this is the same card section but now the dark theme has been applied'},
+  {img: '/assets/folio-card-section2.avif', alt: 'portfolio picture', p: 'this is the same card section but now the category is web development instead of all work'},
+  {img: '/assets/folio-testimonial.avif', alt: 'portfolio picture', p: 'this is the testimonial section which is a carousel set up so you can click on the arrows and go from one to another'},
 ];
 
 const createFolioContent = (imgContent) => {

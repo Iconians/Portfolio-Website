@@ -6,12 +6,12 @@ const closeModal = document.querySelectorAll(modalClose);
 saasPlaceholder = document.querySelector('.saas-img-placeholder');
 
 const saasContent = [
-  {img: '/assets/SaaS top page.png', alt: 'portfolio picture', p: 'this is the top portion of the page which has icons that glide up into position'},
-  {img: '/assets/key benefits.png', alt: 'portfolio picture', p: 'the key benefits section lists their services and when you move your arrow over a card it enlarges a little'},
-  {img: '/assets/saas get started.png', alt: 'portfolio picture', p: 'this section shows a page and a button that directs you to a contact form'},
-  {img: '/assets/SaaS why section.png', alt: 'portfolio picture', p: 'this section contains a video link and some key features of their service'},
-  {img: '/assets/saas testimonal.png', alt: 'portfolio picture', p: 'this section contains a testimonial and the picture they have is actually a 2 part picture, the main picture is placed over the dotted background picture'},
-  {img: '/assets/saas price section.png', alt: 'portfolio picture', p: 'this section is the pricing section and the different services it covers'},
+  {img: '/assets/SaaS-top-page.avif', alt: 'portfolio picture', p: 'this is the top portion of the page which has icons that glide up into position'},
+  {img: '/assets/key-benefits.avif', alt: 'portfolio picture', p: 'the key benefits section lists their services and when you move your arrow over a card it enlarges a little'},
+  {img: '/assets/saas-get-started.avif', alt: 'portfolio picture', p: 'this section shows a page and a button that directs you to a contact form'},
+  {img: '/assets/SaaS-why-section.avif', alt: 'portfolio picture', p: 'this section contains a video link and some key features of their service'},
+  {img: '/assets/saas-testimonal.avif', alt: 'portfolio picture', p: 'this section contains a testimonial and the picture they have is actually a 2 part picture, the main picture is placed over the dotted background picture'},
+  {img: '/assets/saas-price-section.avif', alt: 'portfolio picture', p: 'this section is the pricing section and the different services it covers'},
 ];
 
 const createSaasContent = (imgContent) => {

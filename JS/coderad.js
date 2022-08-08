@@ -7,11 +7,11 @@ const closeModal = document.querySelectorAll(modalClose);
 codeRadPlaceholder = document.querySelector('.coderad-img-placeholder');
 
 const codeRadContent = [
-  {img: '/assets/codeRad top page.png', alt: 'portfolio picture', p: 'this is the top of the page which has a background image'},
-  {img: '/assets/codeRad card grid.png', alt: 'portfolio picture', p: 'this section includes 6 cards, that display what services they offer'},
-  {img: '/assets/codeRad video link.png', alt: 'portfolio picture', p: 'this section has a background image with a video link that will tell their story'},
-  {img: '/assets/codeRad pricing.png', alt: 'portfolio picture', p: 'this is the pricing section, as you see they have 3 option tiers with the middle one highlighted with a faint blue background'},
-  {img: '/assets/codeRad testimonials.png', alt: 'portfolio picture', p: 'this section contains testimonials, then you notice the blue arrow, that will take you back to the top of the page'},
+  {img: '/assets/codeRad-top-page.avif', alt: 'portfolio picture', p: 'this is the top of the page which has a background image'},
+  {img: '/assets/codeRad-card-grid.avif', alt: 'portfolio picture', p: 'this section includes 6 cards, that display what services they offer'},
+  {img: '/assets/codeRad-video-link.avif', alt: 'portfolio picture', p: 'this section has a background image with a video link that will tell their story'},
+  {img: '/assets/codeRad-pricing.avif', alt: 'portfolio picture', p: 'this is the pricing section, as you see they have 3 option tiers with the middle one highlighted with a faint blue background'},
+  {img: '/assets/codeRad-testimonials.avif', alt: 'portfolio picture', p: 'this section contains testimonials, then you notice the blue arrow, that will take you back to the top of the page'},
 ];
 
 const createCodeRadContent = (imgContent) => {
